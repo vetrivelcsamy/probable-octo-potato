@@ -9,7 +9,7 @@ if (process.env.NODE_ENV !== "production") {
 
 const axiosInstance = axios.create({
   // baseURL: "http://a99b9e15.ngrok.io"
-  baseURL: "http://parthmasai.pythonanywhere.com"
+  baseURL: "https://parthmasai.pythonanywhere.com"
 });
 
 axiosInstance.interceptors.request.use(request => {
